@@ -1,0 +1,25 @@
+---Classes---
+ 
+Cliente, Comanda, Produtos, Caixa, Atendente.
+
+---Atributos---- 
+
+Cliente - Comanda, Produtos.
+
+Comanda - Produtos, ID do produto, quantidade, valor unitário, data da compra.
+
+Produtos - Produtos, ID do Produto, Valor unitário.
+
+Caixa - Leitura da Comanda, somar o valor total da compra.
+
+Atendente - Registrar consumo do cliente na comanda
+
+---Métodos---
+
+Cliente - Receber a comanda, Consumir os produtos, Realizar o pagamento no caixa.
+
+Comanda - Registrar o consumo de cada cliente, valor de cada produto, quantidade e data da compra.
+
+Produtos - Ser vendido e consumido pelo cliente.
+
+Caixa - Fazer a leitura da comanda, calcular o valor total da compra, finalizar a compra.

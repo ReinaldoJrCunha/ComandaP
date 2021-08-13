@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Vendas Diária</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/geral.css">
+	<!-- scripts -->
+	<script src="js/jquery-3.5.1.js"></script> <!--Necessario pra usar funções jquery--> 
+	<script src="js/funcoes.js"></script>
+</head>
+<body>
+
+<div class="consulta">
+	<button type="button" id="voltar" onclick="window.history.back();"><label><</label></button>
+	<label style="color: white; padding: 10px">Vendas Diária</label>
+	<section>
+		<input type="text" placeholder="Vendas diária" id="vendas_diaria" disabled=""> <!-- "disabled=" pra que os campos n fiqueim habilitados para edição-->
+	</section>
+</div>
+
+<script type="text/javascript">
+	consulta_vendas_diaria("vendas_diaria");
+</script>
+
+</body>
+</html>
